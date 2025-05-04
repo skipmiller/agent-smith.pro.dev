@@ -5,7 +5,7 @@ Claude, please help me understand this codebase:
 2. Run `git ls-files` to see all tracked files
 3. Summarize what you understand about the codebase
 
-##############################################
+###############################################
 
 # React Template Development Environment
 
