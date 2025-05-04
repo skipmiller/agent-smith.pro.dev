@@ -12,6 +12,9 @@ module.exports = {
         secondary: "#ffed4a",
         danger: "#e3342f",
       },
+      borderColor: {
+        border: "hsl(var(--border))",
+      },
     },
   },
   plugins: [],
