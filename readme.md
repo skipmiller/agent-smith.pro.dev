@@ -299,3 +299,18 @@ vercel --prod
 ```
 
 The deployment will use the configuration in `vercel.json` which is optimized for Next.js.
+
+### Improved Dependency Installation
+
+For successful deployment on Vercel, this project includes specific versions of Tailwind CSS and related packages as direct dependencies rather than devDependencies:
+
+```json
+"dependencies": {
+  // ...other dependencies
+  "autoprefixer": "10.4.14",
+  "postcss": "8.4.21",
+  "tailwindcss": "3.3.0"
+}
+```
+
+This ensures that these packages are available during the build process and prevents common CSS compilation errors.
